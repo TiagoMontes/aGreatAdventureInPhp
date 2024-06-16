@@ -1,0 +1,8 @@
+docker build -t my-php-app .
+
+docker stop my-running-app
+
+docker rm my-running-app
+
+# Run the Docker container, mapping port 3000
+docker run -d -p 3000:80 --name my-running-app my-php-app
