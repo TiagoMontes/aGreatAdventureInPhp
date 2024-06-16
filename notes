@@ -8,6 +8,7 @@ docker rm my-running-app
 docker run -d -p 3000:80 --name my-running-app my-php-app
 
 -------------------------------------------
+SERVER
 
 To serve the /app/index.php file through a web server on a specific port (like 3000), you'll need to use a web server like Apache or Nginx along with PHP.
 In this case, we'll use Apache, why? because i want.
